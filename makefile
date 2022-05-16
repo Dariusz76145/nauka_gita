@@ -5,7 +5,7 @@ deps:
 lint: 
 	flake8 hello_world test 
 
-test:
+.PHONY test:
 	mock
 	pytest
 	flake8
